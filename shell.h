@@ -10,9 +10,8 @@
 
 #define MAX_INP_SIZE 1024
 
-// Fonction pour lire une ligne de l'entrée standard
+
 char *readline();
 
-// Fonction pour exécuter une commande
 void executecommand(char **);
 #endif
