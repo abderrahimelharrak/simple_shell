@@ -79,8 +79,8 @@ int _populateenv_list(info_t *info)
 	list_t *nod = NULL;
 	size_t x;
 
-	for (x = 0; environement[x]; x++)
-		_addnode_end(&nod, environement[x], 0);
+	for (x = 0; environ[x]; x++)
+		_addnode_end(&nod, environ[x], 0);
 	info->envv = nod;
 	return (0);
 }
